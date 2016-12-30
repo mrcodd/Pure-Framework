@@ -1,0 +1,52 @@
+/* Reset
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Home Page [Delete Here!]
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+    background: #fbfbfb;
+}
+#welcome-box {
+    margin-top: 50px;
+    color: #555;
+    overflow: hidden;
+}
+
+.logo img {
+    width: 108px;
+    height: 35px;
+}
+
+#welcome-content {
+    padding: 20px;
+    margin: 0;
+    margin-top: 15px;
+    border: 1px #f2f2f2 solid;
+    border-radius:5px;
+}
+
+#welcome-content .red {
+    color: #F35C5C;
+}
+
